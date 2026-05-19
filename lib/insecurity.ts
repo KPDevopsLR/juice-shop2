@@ -30,6 +30,7 @@ interface ResponseWithUser {
   bid?: number
 }
 
+
 interface IAuthenticatedUsers {
   tokenMap: Record<string, ResponseWithUser>
   idMap: Record<string, string>
